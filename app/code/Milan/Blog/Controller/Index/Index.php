@@ -1,7 +1,7 @@
 <?php
-namespace Cognixia\Blog2\Controller\About;
+namespace Milan\Blog\Controller\Index;
 
-class About extends \Magento\Framework\App\Action\Action
+class Index extends \Magento\Framework\App\Action\Action
 {
     /**
      * @var \Magento\Framework\View\Result\PageFactory
