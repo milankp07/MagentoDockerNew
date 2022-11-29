@@ -8,7 +8,8 @@ $recent_blogs =  $this->getRecentBlogs();
     <p class="error">No blogs were found..</p>
 <?php else : ?>
     <?php foreach ($recent_blogs as $blog) : ?>
-        <h2><?= $blog['title'] ?></h2>
-        <p><?= $blog['content'] ?></p>
+        <h2>Title : <?= $blog['title'] ?></h2>
+        <p>Content : <?= $blog['content'] ?></p>
+        <p>Author : <?= $blog['author'] ?></p>
     <?php endforeach; ?>
 <?php endif; ?>
